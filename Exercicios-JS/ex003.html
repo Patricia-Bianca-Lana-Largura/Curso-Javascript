@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu primeiro programa...</title>
+
+    <style>
+        body{background-color: rgb(102, 102, 192); /*Comentário*/
+        color: white;
+        font: 20pt Arial;}
+    </style>
+
+</head>
+<body>
+   <h1>Olá, mundo!</h1> <!-- Comentário -->
+   <p>Já me livrei</p>
+
+   <script>
+                  /*O number converte a resposta que estava em string p/ número
+                     Pode usar Number.parseInt também. 
+                     
+                  */
+    var n1 =Number(window.prompt("Digite um número: ")) // O prompt trata as respostas na categoria String mesmo sendo um número a resposta
+    var n2 =Number (window.prompt("Digite outro número: ")) // String
+    var s = n1 + n2
+    window.alert (`A soma entre ${n1} e ${n2} é  igual a ${s} `  )  
+            // + pode servir para Adição e Também para Concatenação (juntar 2 informações)
+            // (number + number) ele faz uma adição
+            // (string + string) ele faz concatenação
+   </script>
+</body>
+</html>
