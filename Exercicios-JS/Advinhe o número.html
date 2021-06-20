@@ -49,7 +49,7 @@
   var ultimoResultado = document.querySelector('.ultimoResultado');
   var baixoOuAlto = document.querySelector('.baixoOuAlto');
 
-  var envioPalpite = document.querySelector('.envioPalpite');   l
+  var envioPalpite = document.querySelector('.envioPalpite'); 
   var campoPalpite = document.querySelector('.campoPalpite');
 
   var contagemPalpites = 1;
@@ -61,7 +61,7 @@
       if(contagemPalpites ===1){
         palpites.textContent = 'Palpites anteriores: ';
       }
-      palpites.textContent +=palpites + ' ';
+      palpites.textContent += palpiteUsuario + ' ';
 
       if(palpiteUsuario === numeroAleatorio){
         ultimoResultado.textContent = 'Parabêns! Você acertou!';
